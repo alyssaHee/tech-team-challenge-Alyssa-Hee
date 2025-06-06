@@ -1,15 +1,18 @@
-.member-display {
-  margin: var(--margin-xxl) var(--margin-xxxl) var(--margin-xxl);
-}
-
 .member-position {
   margin: var(--margin-xxl) var(--margin-s) var(--margin-xs);
   font-size: clamp(1.8rem, 4vw, 3rem);
 }
 
 .carousel {
-  margin: 0;
-  position: relative;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.carousel .swiper-slide {
+  display: flex;
+  justify-content: center;
 }
 
 .carousel:hover {
@@ -24,4 +27,39 @@
 
 .swiper-pagination-bullet-active {
   opacity: 1;
+}
+
+/* Media Queries */
+@media (min-width: 600px) {
+  .swiper-pagination-bullet {
+    margin: 0 7px !important;
+  }
+  .member-position {
+    margin: var(--margin-l) var(--margin-s) var(--margin-xs);
+  }
+}
+
+@media (min-width: 850px) {
+  .member-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    justify-content: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* Adjust all member cards to be centred and have flex property */
+  .member-display > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel {
+    /* Add space for pagination dots */
+    padding-bottom: 2.5rem;
+    position: relative;
+  }
 }

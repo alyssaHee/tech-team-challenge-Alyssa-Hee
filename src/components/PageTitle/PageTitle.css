@@ -2,5 +2,13 @@
   font-size: clamp(1.2rem, 3vw, 1.6rem);
   font-weight: bold;
   line-height: 1.2;
-  margin: var(--margin-m) var(--margin-xl) var(--margin-xxxl);
+  margin: var(--margin-m) var(--margin-xl) var(--margin-xxl);
+}
+
+/* Media Queries */
+@media (min-width: 600px) {
+  .page-title {
+    margin: var(--margin-l) var(--margin-xxl) var(--margin-xxl);
+    font-size: clamp(1.2rem, 3vw, 2rem);
+  }
 }

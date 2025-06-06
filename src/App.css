@@ -19,7 +19,7 @@ html {
   --margin-l: 1.25rem;
   --margin-xl: 1.75rem;
   --margin-xxl: 2.5rem;
-  --margin-xxxl: 3.5rem;
+  --margin-xxxl: 4rem;
 }
 
 body {
@@ -33,4 +33,11 @@ body {
 h1 {
   margin-block-start: var(--margin-xs);
   margin-block-end: var(--margin-s);
+}
+
+/* Media Queries */
+@media (min-width: 600px) {
+  html {
+    font-size: 12px;
+  }
 }
