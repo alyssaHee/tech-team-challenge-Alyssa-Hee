@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap");
 
 html {
   font-size: 10px;
 }
 
-:root{
+/* Global CSS Variables */
+:root {
   /* colors*/
   --primary-text: rgb(243, 243, 243);
   --background: #5e1975;
@@ -17,18 +19,18 @@ html {
   --margin-l: 1.25rem;
   --margin-xl: 1.75rem;
   --margin-xxl: 2.5rem;
+  --margin-xxxl: 3.5rem;
 }
-
 
 body {
   margin: 0;
   background-color: var(--background);
-  font-family: 'Texturina';
+  font-family: "Texturina";
   text-align: center;
   color: var(--primary-text);
 }
 
-h1{
+h1 {
   margin-block-start: var(--margin-xs);
   margin-block-end: var(--margin-s);
 }

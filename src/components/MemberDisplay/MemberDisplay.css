@@ -1,16 +1,27 @@
 .member-display {
-    margin: var(--margin-xxl) var(--margin-xl) var(--margin-xxl);
+  margin: var(--margin-xxl) var(--margin-xl) var(--margin-xxl);
 }
 
 .member-position {
-    margin: var(--margin-s) 0;
-    font-size: 2rem;
+  margin: var(--margin-xxl) var(--margin-s) var(--margin-xs);
+  font-size: 2rem;
 }
 
 .carousel {
-    margin: 0;
+  margin: 0;
+  position: relative;
 }
 
 .carousel:hover {
-    cursor: grab;
+  cursor: grab;
+}
+
+.swiper-pagination-bullet {
+  background: #ffffff;
+  opacity: 0.5;
+  margin: 0 5px !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
 }

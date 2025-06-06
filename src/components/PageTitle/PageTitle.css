@@ -1,6 +1,6 @@
-.page-title{
-    font-size: 1.2rem;
-    font-weight: bold;
-    line-height: 1.2;
-    margin: var(--margin-s) var(--margin-m) var(--margin-xxl);
+.page-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: var(--margin-m) var(--margin-m) var(--margin-xxxl);
 }

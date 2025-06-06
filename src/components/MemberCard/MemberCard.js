@@ -10,7 +10,7 @@ function MemberCard({ member }){
                 alt={member.name}
             />
             <h3 className="member-name">{member.name}</h3>
-       </div>
+       </div> 
         
     )
 }
