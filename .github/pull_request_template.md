@@ -1,9 +1,9 @@
 # Applicant Information
 
 ### Name: 
-_Jane Doe_
+_Alyssa Hee_
 ### Email:
-_jane.doe@example.com_
+_alyssa.hee@mail.utoronto.ca_
 
 ### Solution Description
-_Describe your solution briefly_
+_I used a mobile first approach to make a responsive webpage that shows the different orientation committee members grouped by position. For positions with multiple members, I displayed them using a carousel!_

@@ -1,4 +1,4 @@
-/* Fonts */
+/* Font */
 @import url("https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap");
 
 html {
@@ -10,6 +10,7 @@ html {
   /* colors*/
   --primary-text: rgb(243, 243, 243);
   --background: #5e1975;
+  --darkbackground: #4d1261;
 
   /* spacing */
   --margin-xxs: 0.25rem;

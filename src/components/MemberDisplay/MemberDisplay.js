@@ -16,6 +16,7 @@ function MemberDisplay({ member }) {
   return (
     <div className="member-display">
       {Object.entries(groups).map(([position, groupMembers]) => (
+        // Convert groups object into an array and create a section for each position
         <div key={position}>
           <h2 className="member-position">{position}</h2>
 

@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 400px;
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
@@ -31,6 +30,7 @@
 
 @media (min-width: 850px) {
   .member-card {
+    max-width: 400px;
     padding: 0;
   }
 }

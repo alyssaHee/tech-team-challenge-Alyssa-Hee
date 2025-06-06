@@ -1,4 +1,4 @@
 .footer {
-  background-color: #4d1261;
+  background-color: var(--darkbackground);
   height: 3rem;
 }
