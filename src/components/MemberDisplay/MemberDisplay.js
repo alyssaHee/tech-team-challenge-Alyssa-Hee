@@ -1,12 +1,12 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import { Pagination } from "swiper/modules";
+import "swiper/css/pagination";
+
 import members from "../../members_details.json";
 import MemberCard from "../MemberCard/MemberCard";
-import "swiper/css";
-import "swiper/css/pagination";
 import "./MemberDisplay.css";
-
-import { Pagination } from "swiper/modules";
 
 // Sort members data by grouping leaders sharing the same position
 const groups = Object.groupBy(members, (member) => member.position);
@@ -19,10 +19,12 @@ function MemberDisplay({ member }) {
         <div key={position}>
           <h2 className="member-position">{position}</h2>
 
-          {groupMembers.length === 1 ? (
+          {groupMembers.length === 1 && (
             // Only one member — show single card
             <MemberCard member={groupMembers[0]} />
-          ) : (
+          )}
+
+          {groupMembers.length > 1 && (
             // Multiple members — show carousel
             <Swiper
               className="carousel"
