@@ -1,0 +1,14 @@
+.member-card {
+    padding: 0 var(--margin-xl) var(--margin-xxl);
+}
+
+.member-img {
+    border-radius: 2rem;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.member-name {
+    margin: var(--margin-xs) 0;
+}

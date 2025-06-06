@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
 
-:root{
+html {
   font-size: 10px;
+}
 
+:root{
   /* colors*/
   --primary-text: rgb(243, 243, 243);
   --background: #5e1975;
@@ -22,6 +24,7 @@ body {
   margin: 0;
   background-color: var(--background);
   font-family: 'Texturina';
+  text-align: center;
   color: var(--primary-text);
 }
 

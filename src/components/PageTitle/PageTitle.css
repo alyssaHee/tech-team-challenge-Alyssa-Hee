@@ -1,7 +1,6 @@
 .page-title{
     font-size: 1.2rem;
     font-weight: bold;
-    text-align: center;
     line-height: 1.2;
-    padding: var(--margin-s);
+    margin: var(--margin-s) var(--margin-m) var(--margin-xxl);
 }

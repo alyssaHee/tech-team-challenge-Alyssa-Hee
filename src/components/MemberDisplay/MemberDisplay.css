@@ -1,0 +1,16 @@
+.member-display {
+    margin: var(--margin-xxl) var(--margin-xl) var(--margin-xxl);
+}
+
+.member-position {
+    margin: var(--margin-s) 0;
+    font-size: 1.5rem;
+}
+
+.carousel {
+    margin: 0;
+}
+
+.carousel:hover {
+    cursor: grab;
+}
