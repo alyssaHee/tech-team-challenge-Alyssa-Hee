@@ -4,6 +4,7 @@
 
 .member-img {
     border-radius: 2rem;
+    border: 0.5rem solid #420e54;
     max-width: 100%;
     height: auto;
     
@@ -11,4 +12,5 @@
 
 .member-name {
     margin: var(--margin-xs) 0;
+    font-size: 1.5rem;
 }

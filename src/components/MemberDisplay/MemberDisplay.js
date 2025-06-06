@@ -22,7 +22,7 @@ function MemberDisplay({ member }) {
             <MemberCard member={groupMembers[0]} />
           ) : (
             // Multiple members — show carousel
-            <Swiper className="carousel" spaceBetween={10} slidesPerView={1}>
+            <Swiper className="carousel" spaceBetween={5} slidesPerView={1.2}>
               {groupMembers.map((member) => (
                 <SwiperSlide key={member.name}>
                   <MemberCard member={member} />
